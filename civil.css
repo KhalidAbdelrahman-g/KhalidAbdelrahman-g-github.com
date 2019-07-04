@@ -1,0 +1,324 @@
+
+/*my fn*/
+.upper-case{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/*end*/
+
+
+/*head*/
+.cva{
+    letter-spacing: 20;
+    font-size: 25px;
+    opacity: .7;
+    margin: 10px;
+}
+.navcolor{
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+/*end header*/
+
+/*start our work*/
+.ourwork .out{
+    margin-top: 30px; 
+    background-color: #EEE;
+    padding: 30px;
+}
+.ourwork .out .article1{
+    border: 1px solid #1f1919;
+    padding: 10px;
+}
+.ourwork .out .article1 img{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+.ourwork .out .article1 h3{
+    font-weight: bold;
+}
+.ourwork .out .article1 p{
+    font-size: 15px;
+    font-weight: bold;
+}
+/*end*/
+.ourteam .hour{
+    background-color: beige;
+    margin: 25px auto;
+    padding: 15px 0;
+    width: 350px;
+    text-align: center;
+}
+.ourteam .father{
+    width: 400px;
+    height: 475px;
+    background-color: #c3c3e4;
+    margin: 20px auto;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    position: relative;
+    border: 1px solid #886868;
+    border-radius: 20px 20px;
+}
+.ourteam .father:hover{
+    transform: rotateY(180deg);
+}
+.ourteam .father .front{
+    z-index: 2;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.ourteam .father .back{
+    z-index: 1;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #739bcc;
+    border: 1px solid #886868;
+    border-radius: 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    line-height: 60px;
+    color: black;
+}
+.ourteam .father .back a{
+    color: black;
+}
+.ourteam .father .front img{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+.ourteam .father .front .hea{
+    width: 100%;
+    height: 135px;
+    background-color: #bebad6;
+    border: 1px solid #bebad6;
+    border-radius: 20px 20px;
+    margin: 20 0;
+}
+/*end*/
+
+
+/*start oursite*/
+.oursite{
+    background-image: url(photo.jpg);
+    background-size: cover;
+    padding: 30px;
+}
+.oursite ul{
+    font-family: 'Tenor Sans';
+    color: #0F0C13;
+    font-size: 25px;
+    text-align: left;
+    list-style: none;
+    display: block;
+}
+.oursite ul li{
+    height: 100px;
+    padding: 0px 0px 0px 55px; 
+    margin: 30px 0;
+    color: aliceblue;
+}
+.oursite ul .li1{
+    background: url(list1.png) no-repeat;
+}
+.oursite ul .li2{
+    background: url(list2.png) no-repeat;
+}
+.oursite ul .li3{
+    background: url(list3.png) no-repeat;
+}
+.oursite ul .li4{
+    background: url(list4.png) no-repeat;
+}
+
+
+
+/*end*/
+
+
+/*ourphoto*/
+.ourphoto{
+    background-color: #EEE;
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    margin: 20px 0;
+    
+}
+
+.ourphoto .butt{
+    width: 250px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px auto;
+    border: 1px solid #00F;
+    font-size: 25px;
+}
+.ourphoto .butt:hover{
+    color: blue;
+    background-color: azure;
+    
+}
+.ourphoto .picture{
+    display: none;
+}
+/*end*/
+
+
+/*creat acoordion*/
+.acoo{
+    background-color: rgba(218, 148, 215, 0.2);
+}
+.acoordian{
+    margin: 20px auto;
+    background-image: url(pho/backg2.jpg);
+    background-size: cover;
+}
+.acoordian h3{
+    background-color: #b57fb3;
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+    cursor: pointer;
+}
+.acoordian img{
+    display: none;
+    max-width: 700px;
+}
+.acoordion h2{
+    margin-top: 20px;
+    padding: 15px;
+    letter-spacing: 14;
+}
+/*start copy right*/
+.copy-right{
+    border-top: 1px solid #333;
+    padding: 22px;
+    margin-top: 20px;
+    background-color: azure;
+}
+.copy-right ul{
+    margin: 0;
+}
+.copy-right ul li{
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
